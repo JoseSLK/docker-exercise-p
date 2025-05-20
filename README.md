@@ -28,8 +28,7 @@ docker pull joseslk/mi-aplicacion-web:latest
 Una vez descargada la imagen, puedes ejecutar el contenedor con el mismo comando que se explicó antes:
 
 ```bash
-docker build -t mi-aplicacion-web .
-docker run -d -p 8080:80 mi-aplicacion-web
+docker run -d -p 8080:80 joseslk/mi-aplicacion-web:latest
 ```
 
 5. Acceder a la aplicación
