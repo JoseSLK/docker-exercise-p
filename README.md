@@ -20,17 +20,14 @@ La aplicación está contenida en un contenedor Docker, lo que permite su despli
 
 ## Instrucciones para descargar y ejecutar la imagen de Docker
 
-3 Descargar la imagen desde DockerHub
 Si prefieres no construir la imagen localmente, puedes descargarla directamente desde DockerHub. Para hacerlo, usa:
 
 ```bash
-Copiar
 docker pull joseslk/mi-aplicacion-web:latest
 ```
 Una vez descargada la imagen, puedes ejecutar el contenedor con el mismo comando que se explicó antes:
 
 ```bash
-Copiar
 docker build -t mi-aplicacion-web .
 docker run -d -p 8080:80 mi-aplicacion-web
 ```
