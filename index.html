@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="controls">
+        <input type="number" id="postId" placeholder="ID del post">
+        <button id="searchById">Buscar por ID</button>
+        <button id="showAll">Mostrar Todos</button>
+    </div>
+
+    <table class="table_re">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+                <th>User ID</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    
+    <script type="module" src="/index.js"></script>
+</body>
+</html>
